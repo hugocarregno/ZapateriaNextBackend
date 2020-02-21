@@ -1,0 +1,14 @@
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.deps.json
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.runtimeconfig.json
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.runtimeconfig.dev.json
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.dll
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.csprojAssemblyReference.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.RazorAssemblyInfo.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.RazorAssemblyInfo.cs
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.AssemblyInfoInputs.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.AssemblyInfo.cs
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.RazorTargetAssemblyInfo.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.pdb
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.dll
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.pdb
