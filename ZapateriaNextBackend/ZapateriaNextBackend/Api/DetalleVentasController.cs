@@ -39,7 +39,8 @@ namespace ZapateriaNextBackend.Api
                 return BadRequest(ex);
             }
         }
-
+        
+        
         // GET: api/DetalleVentas/5
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
@@ -54,7 +55,8 @@ namespace ZapateriaNextBackend.Api
                 return BadRequest(ex);
             }
         }
-
+        
+        /*
         // POST: api/DetalleVentas
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] List<DetalleVenta> listado)
@@ -87,6 +89,7 @@ namespace ZapateriaNextBackend.Api
             }
         }
 
+    */
         // PUT: api/DetalleVentas/5
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, DetalleVenta entidad)

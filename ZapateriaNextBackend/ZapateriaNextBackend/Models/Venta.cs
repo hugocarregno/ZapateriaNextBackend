@@ -21,6 +21,7 @@ namespace ZapateriaNextBackend.Models
         public int IdEmpleado { get; set; }
         [ForeignKey("IdEmpleado")]
         public Empleado Empleado { get; set; }
+        public List<DetalleVenta> detalles { get; set; }
         
     }
 }

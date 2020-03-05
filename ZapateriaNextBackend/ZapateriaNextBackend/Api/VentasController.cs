@@ -41,7 +41,7 @@ namespace ZapateriaNextBackend.Api
                 return BadRequest(ex);
             }
         }
-        
+
         /*
         // GET: api/Ventas/5
         [HttpGet("{id}")]
@@ -60,6 +60,34 @@ namespace ZapateriaNextBackend.Api
         }
         */
 
+        // POST: api/Ventas
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] Venta listado)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    foreach (DetalleVenta dv in listado.detalles) {
+                        dv.IdZapatilla = dv.Zapatilla.Id;
+                        dv.Zapatilla.Stock -= dv.Cantidad;
+                        contexto.Zapatillas.Update(dv.Zapatilla);
+                        dv.Zapatilla = null;
+                     }
+                    //listado.detalles.ForEach(dv => dv.IdZapatilla = dv.Zapatilla.Id);
+                    contexto.Ventas.AddRange(listado);
+                    contexto.SaveChanges();
+
+                    return Ok(listado);
+                }
+                return BadRequest();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+        
         // GET: api/Ventas/Detalle/5
         [HttpGet("{Detalle}/{id}")]
         public async Task<IActionResult> Get(int id)
@@ -76,6 +104,7 @@ namespace ZapateriaNextBackend.Api
             }
         }
 
+    
         // PUT: api/Ventas/5
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id,[FromBody] Venta entidad)

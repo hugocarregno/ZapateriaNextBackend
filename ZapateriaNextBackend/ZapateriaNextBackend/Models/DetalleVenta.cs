@@ -16,9 +16,10 @@ namespace ZapateriaNextBackend.Models
         [Required]
         public int Cantidad { get; set; }
         public int IdVenta { get; set; }
-        public int IdZapatilla { get; set; }
+        
         [ForeignKey("IdVenta")]
         public Venta Venta { get; set; }
+        public int IdZapatilla { get; set; }
         [ForeignKey("IdZapatilla")]
         public Zapatilla Zapatilla { get; set; }
     }
