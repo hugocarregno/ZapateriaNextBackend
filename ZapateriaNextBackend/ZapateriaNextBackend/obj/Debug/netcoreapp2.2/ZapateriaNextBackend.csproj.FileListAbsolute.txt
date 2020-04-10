@@ -12,3 +12,16 @@ C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\n
 C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.pdb
 C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.dll
 C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.pdb
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.genruntimeconfig.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.Views.dll
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\bin\Debug\netcoreapp2.2\ZapateriaNextBackend.Views.pdb
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.TagHelpers.input.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.TagHelpers.output.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.RazorCoreGenerate.cache
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.RazorTargetAssemblyInfo.cs
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.Views.pdb
+C:\Users\Hugo\source\repos\ZapateriaNextBackend\ZapateriaNextBackend\obj\Debug\netcoreapp2.2\ZapateriaNextBackend.csproj.CopyComplete

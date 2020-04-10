@@ -62,23 +62,25 @@ namespace ZapateriaNextBackend.Api
 
         // POST: api/Ventas
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Venta listado)
+        public async Task<IActionResult> Post([FromBody] Venta venta)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    foreach (DetalleVenta dv in listado.detalles) {
+                    foreach (DetalleVenta dv in venta.Detalles) {
                         dv.IdZapatilla = dv.Zapatilla.Id;
                         dv.Zapatilla.Stock -= dv.Cantidad;
                         contexto.Zapatillas.Update(dv.Zapatilla);
                         dv.Zapatilla = null;
-                     }
-                    //listado.detalles.ForEach(dv => dv.IdZapatilla = dv.Zapatilla.Id);
-                    contexto.Ventas.AddRange(listado);
+                     } 
+                    contexto.Ventas.AddRange(venta);
                     contexto.SaveChanges();
 
-                    return Ok(listado);
+                    venta.Detalles.ForEach(v => v.Venta = null);
+
+                    return Ok(venta);
+                    
                 }
                 return BadRequest();
             }
@@ -87,7 +89,7 @@ namespace ZapateriaNextBackend.Api
                 return BadRequest(ex);
             }
         }
-        
+        /*
         // GET: api/Ventas/Detalle/5
         [HttpGet("{Detalle}/{id}")]
         public async Task<IActionResult> Get(int id)
@@ -103,7 +105,7 @@ namespace ZapateriaNextBackend.Api
                 return BadRequest(ex);
             }
         }
-
+        */
     
         // PUT: api/Ventas/5
         [HttpPut("{id}")]
